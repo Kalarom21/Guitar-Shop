@@ -1,0 +1,54 @@
+body {
+    width: 1200px;
+    
+}
+
+section {
+    width: 980px;
+}
+
+#nav_menu ul li {
+    float: left; 
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+form {
+    border: solid black;
+    margin: 10px;
+}
+
+.form-container table {
+    width: 100%;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"] {
+    width: 50%;
+    margin-left: 10px;
+}
+
+.side-by-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type ="submit"] {
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.message {
+    color: red;
+}
+
